@@ -5,3 +5,7 @@
 -----------------------------------------------------------------------------------------
 
 -- Your code here
+
+local background = display.newImageRect("assets/space5.png", 100, 100)
+
+
