@@ -11,11 +11,11 @@ local physics = require('physics')
 physics.start()
 
 -- Create the background 
-local star = display.newImageRect( "assets/space5.png", display.contentWidth, display.contentHeight )
-star.anchorX = 0
-star.anchorY = 0
-star.x = 0
-star.y = 0
+local background = display.newImageRect( "assets/space5.png", display.contentWidth, display.contentHeight )
+background.anchorX = 0
+background.anchorY = 0
+background.x = 0
+background.y = 0
 
 -- Create the star obj
 local star = display.newImageRect( "assets/star.png", 100, 100 )
